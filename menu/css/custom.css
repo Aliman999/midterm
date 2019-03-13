@@ -2,7 +2,6 @@ body{
   justify-content: center;
 }
 .title{
-  position: relative;
   text-align: center;
 
   height:36px;
@@ -69,4 +68,7 @@ body{
 }
 p{
   margin-left:2px;
+}
+p::first-line{
+  font-weight: 700;
 }
