@@ -21,7 +21,7 @@ body{
   left:50%;
   transform: translate(-50%,-50%);
 
-  animation: expand 1s .5s forwards;
+  animation: expand 1s 1s forwards;
 }
 .conLogo{
   height:128px;
@@ -30,6 +30,8 @@ body{
 .conLogoImage{
   height:128px;
   width:128px;
+
+  animation: appear 1s 0s forwards;
 }
 .conName{
   display: flex;
@@ -62,5 +64,13 @@ span{
   }
   100%{
     width:360px;
+  }
+}
+@keyframes appear {
+  0%{
+    filter: opacity(0);
+  }
+  100%{
+    filter: opacity(1);
   }
 }
