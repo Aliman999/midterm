@@ -68,7 +68,6 @@ body{
   text-align: right;
 
   bottom:0px;
-  margin-bottom:-1900px;
 }
 .copyRight{
   margin-right:16px;
@@ -91,7 +90,9 @@ body{
 
 
 
-
+.active{
+  border-color: white;
+}
 
 .shadow{
   box-shadow: -1px 2px 2px 0px #232323;
