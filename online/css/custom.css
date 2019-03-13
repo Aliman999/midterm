@@ -4,3 +4,6 @@ body{
 .container{
   margin-top:220px;
 }
+.navLogo{
+  margin-left:-128px;
+}

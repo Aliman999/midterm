@@ -5,6 +5,9 @@ body{
   height:auto;
   display: inline-block;
 }
+.navLogo{
+  margin-left:-128px;
+}
 iframe{
   margin-top:220px;
 }

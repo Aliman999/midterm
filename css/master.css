@@ -1,5 +1,4 @@
 html, body{
-  height: 100%;
   width: 100%;
 
   margin: 0px;
@@ -16,7 +15,7 @@ body{
     position: fixed;
     display: flex;
 
-    width: 100%;
+    width: 90%;
     height:64px;
     justify-content: center;
     align-items: center;
@@ -62,12 +61,13 @@ body{
 }
 .footer{
   position: absolute;
-  width: 100%;
+  width: 90%;
   height:64px;
 
   text-align: right;
 
   bottom:0px;
+  z-index: -1;
 }
 .copyRight{
   margin-right:16px;
