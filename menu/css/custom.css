@@ -36,7 +36,7 @@ body{
 
   margin-top:20px;
 
-  box-shadow: -1px 2px 2px 0px #666666;
+  box-shadow: -1px 2px 2px 0px #232323;
 
   overflow-y: auto;
   overflow-x: hidden;
@@ -54,7 +54,6 @@ body{
   border-left:0px;
   border-right:0px;
 }
-
 .itemImg{
   height:252px;
   width: 252px;
