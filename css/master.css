@@ -7,6 +7,7 @@ html, body{
 
   display: inline-block;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
 }
 body{
@@ -73,7 +74,7 @@ body{
 
 
 .primary{
-  background-color: #937052;
+  background-color: #460d0f;
 }
 .primaryText{
   color: #ffffff;

@@ -4,8 +4,10 @@ body{
 .title{
   text-align: center;
 
-  height:36px;
-  width:128px;
+  height:38px;
+  width:auto;
+  padding-left: 8px;
+  padding-right:8px;
 
   font-size: 32px;
 
