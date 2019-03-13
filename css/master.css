@@ -7,6 +7,12 @@ html, body{
 
   display: inline-block;
   font-family: 'Roboto', sans-serif;
+
+  background-image: url(../bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: default;
 }
 .nav{
     position: fixed;
@@ -45,18 +51,16 @@ html, body{
 .item:hover{
   border-color: white;
 }
-h1{
-  margin-left: 16px;
-}
 .navLogo{
   display:inline-block;
   position: relative;
   margin-top: 64px;
-  margin-left: -112px;
+  margin-left: -111px;
 }
 .logo{
   height: 128px;
   width: 128px;
+  z-index: 0
 }
 
 
@@ -68,11 +72,11 @@ h1{
 
 
 .primary{
-  background-color: #e8a87c;
+  background-color: #937052;
   color: #292929;
 }
 .secondary{
-  background-color: #c38d9e;
+  background-color: #824444;
   color: #a9a9a9;
 }
 .bg{
